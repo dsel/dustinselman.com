@@ -1,29 +1,19 @@
 ---
-layout: default
+layout: page
+title: 
+date: 2013-02-15 17:55
+comments: false
+sharing: true
+footer: true
 ---
 
-<div class="blog-index">
-  {% assign index = true %}
-  {% for post in paginator.posts %}
-  {% assign content = post.content %}
-    <article>
-      {% include article.html %}
-    </article>
-  {% endfor %}
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="prev" href="{{paginator.next_page}}">&larr; Older</a>
-    {% endif %}
-    <a href="/blog/archives">Blog Archives</a>
-    {% if paginator.previous_page %}
-    <a class="next" href="{{paginator.previous_page}}">Newer &rarr;</a>
-    {% endif %}
-  </div>
-</div>
-<aside class="sidebar">
-  {% if site.blog_index_asides.size %}
-    {% include_array blog_index_asides %}
-  {% else %}
-    {% include_array default_asides %}
-  {% endif %}
-</aside>
+<p>Dustin is a mild mannered programmer who resides in the wonderfully foggy land of <a href="http://en.wikipedia.org/wiki/San_Francisco">San Francisco</a>, where <a href="http://www.stnford.edu">people</a> pay him to be a <a href="http://del.icio.us/antithesis/geek">geek</a> and develop web apps.<br />
+When not coding he spends most of his time:</p>
+<ul>
+	<li> <a href="http://www.goodreads.com/user/show/190013-dustin">reading</a><a></a> <a href="http://www.librarything.com/profile/dustin" title="My Library">books</a> </li>
+<li> <a href="http://www.makezine.com" title="make!">making</a> things </li>
+<li> playing <a href="http://senseis.xmp.net/">Go</a> </li>
+<li> dancing over <a href="http://wejustdance.com/shades">here</a> </li>
+<li> drinking coffee <a href="http://www.matchinghalfcafe.com" title="Matching Half Cafe">here</a> and <a href="http://sightglasscoffee.com" title="Sightglass Coffee">here</a> and <a href="http://www.facebook.com/stanzasf">here</a> and <a href="http://www.fourbarrelcoffee.com" title="Four Barrel Coffee">here</a>
+</ul>
+<p>Other fragments of Dustin’s distributed web-identity can be found over at his <a href="https://profiles.google.com/u/0/dselman/about">google profile</a></p>
