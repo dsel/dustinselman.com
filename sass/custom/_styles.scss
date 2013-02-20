@@ -1,4 +1,14 @@
 // This File is imported last, and will override other styles in the cascade
 // Add styles here to make changes without digging in too much
 
-header.hgroup.h1 { text-align: right }
+body > header {
+	height: 135px;
+	h1 {
+		width: 334px;
+    	text-align: right;
+    }
+}
+
+body > nav ul li {
+		text-transform: lowercase;
+	}

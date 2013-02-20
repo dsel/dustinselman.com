@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[selman .com]]></title>
+  <title><![CDATA[dustin selman .com]]></title>
   <link href="http://dustinselman.com/atom.xml" rel="self"/>
   <link href="http://dustinselman.com/"/>
-  <updated>2013-02-15T21:03:27-08:00</updated>
+  <updated>2013-02-20T14:05:09-08:00</updated>
   <id>http://dustinselman.com/</id>
   <author>
     <name><![CDATA[Dustin Selman]]></name>
